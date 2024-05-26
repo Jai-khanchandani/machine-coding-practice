@@ -31,3 +31,20 @@ body {
     text-wrap: balance;
   }
 }
+
+.dF {
+  display: flex;
+}
+.dFA {
+  display: flex;
+  align-items: center;
+}
+.jcC {
+  justify-content: center;
+}
+.jcSB {
+  justify-content: space-between;
+}
+.fdC {
+  flex-direction: column;
+}
