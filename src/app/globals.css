@@ -48,3 +48,12 @@ body {
 .fdC {
   flex-direction: column;
 }
+.mb12 {
+  margin-bottom: 12px;
+}
+.fwM {
+  font-weight: 500;
+}
+.fwB {
+  font-weight: 700;
+}
