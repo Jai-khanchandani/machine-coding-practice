@@ -39,6 +39,9 @@ body {
   display: flex;
   align-items: center;
 }
+.fwE {
+  flex-wrap: wrap;
+}
 .jcC {
   justify-content: center;
 }
@@ -47,6 +50,9 @@ body {
 }
 .fdC {
   flex-direction: column;
+}
+.mb8 {
+  margin-bottom: 8px;
 }
 .mb12 {
   margin-bottom: 12px;
@@ -59,4 +65,22 @@ body {
 }
 .fwB {
   font-weight: 700;
+}
+.cP {
+  cursor: pointer;
+}
+.taC {
+  text-align: center;
+}
+.w100 {
+  width: 100vw;
+}
+.h100 {
+  height: 100vh;
+}
+.pR {
+  position: relative;
+}
+.pA {
+  position: absolute;
 }
