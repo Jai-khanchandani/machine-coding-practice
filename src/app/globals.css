@@ -57,6 +57,9 @@ body {
 .mb12 {
   margin-bottom: 12px;
 }
+.mb16 {
+  margin-bottom: 16px;
+}
 .mb24 {
   margin-bottom: 24px;
 }
@@ -83,4 +86,7 @@ body {
 }
 .pA {
   position: absolute;
+}
+.bRed {
+  border: 1px solid red;
 }
