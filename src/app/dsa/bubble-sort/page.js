@@ -25,7 +25,7 @@ const BubbleSort = () => {
   }
 
   console.log(bubbleSort([5, 1, 4, 2, 8]));
-  return <div>Bubble Sort</div>;
+  return <div>Bubble Sort </div>;
 };
 
 export default BubbleSort;
