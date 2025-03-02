@@ -19,7 +19,7 @@ const Wrapper = styled.div`
   }
 `;
 
-const folderList = ["App", "Counter", "Tic-Tac-Toe", "Mouse Capture"];
+const folderList = ["Src", "App", "Bread-Crumb", "Page.js"];
 const BreadCrumb = () => {
   const [breadCrumbList, setBreadCrumbList] = useState([]);
 
@@ -33,7 +33,7 @@ const BreadCrumb = () => {
 
   return (
     <Wrapper className="h100">
-      <div className="dF jcC fwW folderWrapper">
+      <div className="dF jcC fwW fdC folderWrapper">
         {folderList.map((item, index) => {
           return (
             <span
@@ -51,7 +51,7 @@ const BreadCrumb = () => {
           return (
             <span key={index}>
               {item}
-              {index < breadCrumbList.length - 1 && " > "}{" "}
+              {index < breadCrumbList.length - 1 && " > "}&nbsp;
             </span>
           );
         })}

@@ -42,8 +42,8 @@ const Closure = () => {
       <h1 className="fwM mb12">Closures</h1>
       <h2 className="mb12">
         <span className="fwM">DEFINITION: </span>
-        It's a feature where the inner function has access to outer(enclosing)
-        funcion's vairables
+        It&apos;s a feature where the inner function has access to outer(enclosing)
+        funcion&apos;s vairables
       </h2>
       <p className="mb12">
         Outer Variable:

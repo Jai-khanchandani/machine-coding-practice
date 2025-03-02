@@ -8,9 +8,8 @@ export default async function UsersPage() {
   });
 
   if (!res.ok) {
-    return <div>Error fetching users, Please Try again later</div>;
+    return <div>Error fetching users. Please try again later.</div>;
   }
-
   const data = await res.json();
 
   return (

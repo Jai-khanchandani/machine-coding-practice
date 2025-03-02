@@ -48,6 +48,9 @@ body {
 .jcSB {
   justify-content: space-between;
 }
+.jcFE {
+  justify-content: flex-end;
+}
 .fdC {
   flex-direction: column;
 }
@@ -89,4 +92,7 @@ body {
 }
 .bRed {
   border: 1px solid red;
+}
+.c333 {
+  color: #333;
 }
